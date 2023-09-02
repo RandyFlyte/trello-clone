@@ -28,7 +28,7 @@ export async function POST(request: Request) {
     ],
   });
   const gptResponse = response.choices[0].message;
-  console.log(gptResponse);
+  // console.log(gptResponse);
   
   
   return NextResponse.json(gptResponse);
